@@ -32,11 +32,11 @@ Git Viewer is a web application that allows users to search for GitHub users and
    npm install
    ```
 3. Set up environment variables:
-   * Create a `<span>.env</span>` file in the `<span>backend</span>` directory and add:
+   * Create a `.env` file in the `backend` directory and add:
      ```
      GITHUB_API_TOKEN=<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>
      ```
-   * Create a `<span>.env</span>` file in the `<span>frontend</span>` directory and add:
+   * Create a `.env` file in the `frontend` directory and add:
      ```
      REACT_APP_BACKEND_URL=http://localhost:3001
      ```
@@ -53,11 +53,11 @@ Git Viewer is a web application that allows users to search for GitHub users and
    cd ../frontend
    npm start
    ```
-3. Open your browser and navigate to `<span>http://localhost:3000</span>` to see the application.
+3. Open your browser and navigate to `http://localhost:3000` to see the application.
 
 ## Testing
 
-* The application includes tests for both the `<span>App</span>` and `<span>HomePage</span>` components.
+* The application includes tests for both the `App` and `HomePage` components.
 * Snapshot tests are included to ensure component consistency.
 * Run the tests using Jest:
   ```
@@ -67,12 +67,12 @@ Git Viewer is a web application that allows users to search for GitHub users and
 
 ## Folder Structure
 
-* `<span>backend/</span>`: Contains the backend server for handling requests.
-* `<span>frontend/</span>`: Contains the React application.
-  * `<span>src/</span>`: Source code for the frontend.
-    * `<span>pages/HomePage.js</span>`: Home page where user search happens.
-    * `<span>pages/CommitList.js</span>`: Displays the last 5 commits for the user.
-    * `<span>__tests__/</span>`: Contains Jest tests for the components, including snapshot tests.
+* `backend/`: Contains the backend server for handling requests.
+* `frontend/`: Contains the React application.
+  * `src/`: Source code for the frontend.
+    * `pages/HomePage.js`: Home page where user search happens.
+    * `pages/CommitList.js`: Displays the last 5 commits for the user.
+    * `__tests__/`: Contains Jest tests for the components, including snapshot tests.
 
 ## Technologies Used
 
