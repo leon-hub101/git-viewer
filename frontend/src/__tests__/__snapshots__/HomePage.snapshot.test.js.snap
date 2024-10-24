@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders HomePage correctly 1`] = `
+<div
+  className="container mt-5"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6 offset-md-3"
+    >
+      <h1
+        className="text-center mb-4"
+      >
+        GitHub User Search
+      </h1>
+      <input
+        className="form-control mb-2"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Enter GitHub username"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn btn-primary w-100"
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</div>
+`;
