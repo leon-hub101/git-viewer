@@ -72,7 +72,7 @@ Git Viewer is a web application that allows users to search for GitHub users and
   * `src/`: Source code for the frontend.
     * `pages/HomePage.js`: Home page where user search happens.
     * `pages/CommitList.js`: Displays the last 5 commits for the user.
-    * `__tests__/`: Contains Jest tests for the components, including snapshot tests.
+    * `_tests__/`: Contains Jest tests for the components, including snapshot tests.
 
 ## Technologies Used
 
